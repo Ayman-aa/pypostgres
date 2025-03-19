@@ -2,9 +2,9 @@
 import logging
 from typing import Optional
 
-from colors import Colors
-from pretty_printer import PrettyPrinter
-from main import DatabaseManager
+from .colors import Colors
+from .pretty_printer import PrettyPrinter
+from .main import DatabaseManager
 
 # Configure logging
 logger = logging.getLogger(__name__)

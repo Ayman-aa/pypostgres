@@ -2,7 +2,7 @@
 import shutil
 from typing import List, Dict, Any
 
-from colors import Colors
+from .colors import Colors
 
 class PrettyPrinter:
     """Utility for printing database objects in a colorful, formatted way."""

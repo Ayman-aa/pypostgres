@@ -3,7 +3,7 @@ import logging
 import psycopg2
 from typing import Optional
 
-from config import DatabaseConfig
+from .config import DatabaseConfig
 
 # Configure logging
 logger = logging.getLogger(__name__)

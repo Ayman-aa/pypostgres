@@ -2,10 +2,10 @@
 import logging
 from typing import List, Dict, Any, Optional, Tuple
 
-from config import DatabaseConfig
-from connection import ConnectionManager, Transaction
-from schema import SchemaManager
-from data_manager import DataManager
+from .config import DatabaseConfig
+from .connection import ConnectionManager, Transaction
+from .schema import SchemaManager
+from .data_manager import DataManager
 
 # Configure logging
 logger = logging.getLogger(__name__)
@@ -227,7 +227,7 @@ class DatabaseManager:
 
 # Entry point
 if __name__ == "__main__":
-    from cli import DatabaseCLI
+    from .cli import DatabaseCLI
     
     # Use the CLI interface
     cli = DatabaseCLI()

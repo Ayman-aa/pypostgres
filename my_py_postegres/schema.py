@@ -1,8 +1,8 @@
 import logging
 from typing import List, Dict, Any, Tuple, Optional
 
-from connection import ConnectionManager
-from query_builder import QueryBuilder
+from .connection import ConnectionManager
+from .query_builder import QueryBuilder
 
 # Configure logging
 logger = logging.getLogger(__name__)

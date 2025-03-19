@@ -1,7 +1,7 @@
 """Configuration manager for database connections."""
 import os
 import logging
-from dotenv import load_dotenv
+from dotenv import load_dotenv 
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
